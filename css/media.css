@@ -1,0 +1,141 @@
+
+@media(max-width:1200px) {
+    #content-infor .prof-container{
+        width: 450px;
+        height: 450px;
+    }
+    #content-infor .prof-container .prof-box{
+        width: 450px;
+        height: 450px;
+    }
+    #content-infor .prof-box .profissions{
+        transform-origin: 225px;
+        padding: 10px 0;
+    }
+        #content-infor .profissions i{
+        font-size: 30px;
+    }
+    #content-infor .profissions h3{
+        font-size: 14px;
+    }
+    #content-infor .prof-box .circle-prof{
+        width: 300px;
+        height: 300px;
+    }
+
+    #content-infor .prof-container .overlay{
+        border-top: 225px solid #10c0b7;
+        border-bottom: 225px solid #184141;
+        border-left: 225px solid transparent;
+        border-right: 225px solid #3f0e3f;
+        border-radius: 20%;
+    }
+    .home-img img{
+       display: none;
+    }
+    .object{
+        justify-content: center;
+    }
+    .obj-infor{
+        margin: 20px;
+        border: 1px solid#ccc;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    .about-content{
+        justify-content: center;
+    }
+    .about-nfor{
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin: 20px;
+        padding: 15px;
+        width: 450px;
+    }
+    .school-container, .experience, .hability-container{
+        justify-content: center;
+    }
+    .school-content{
+        margin: 20px;
+    }
+    .exp-left{
+        margin: 20px;
+    }
+    .habi-conent{
+        margin: 20px;
+    }
+
+}
+@media(max-width:1150px) {
+    #content-infor{
+        justify-content: center;
+        background-color: #2C2828;
+        width: 100%;
+    }
+    .prof-container{
+        display: none;
+    }
+    .navbar{
+        position: fixed;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        height: 470px;
+        width: 200px;
+        left: -300px;
+        top: 80px;
+        transition: .5s;
+        border-bottom-right-radius: 300px;
+        border: 1px solid #ccc;
+    }
+    .navbar.open{
+        left: 0;
+    }
+    #menu{
+        display: block;
+    }
+    .navbar li{
+        margin-bottom: 25px;
+    }
+    .navbar li a{
+        font-size:20px;
+    }
+    
+}
+
+@media(max-width:1100px){
+    #content-infor .prof-container{
+        /* position: fixed;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3); */
+        display: none;
+    }
+    .content-infor{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #content-infor .content-detail{
+        margin: 10px;
+        width: 450px;
+    }
+    .content-detail span{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width:900px){
+    .object, .about-containser, .school, .experience, .hability, .contact-container{
+        width: 90%;
+    }
+    .obj-infor, .about-nfor, .school-content, .exp-left, .right-expe, .lang-detail, .habi-conent, .contact-infor{
+        width: 100%;
+    }
+    .know{
+        flex-flow: row wrap;
+    }
+    .know-infor{
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+}
